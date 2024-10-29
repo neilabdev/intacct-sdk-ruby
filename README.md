@@ -1,35 +1,25 @@
-# Intacct::Sdk::Ruby
+# Sage Intacct SDK for Ruby
+ 
+[![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.npmjs.com/package/@sage-intact/intacct-sdk)
 
-TODO: Delete this and the text below, and describe your gem
+## Resources
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/intacct/sdk/ruby`. To experiment with that code, run `bin/console` for an interactive prompt.
+* [SDK Guides][sdk-homepage] - Getting started with the SDK
+* [SDK Reference][sdk-reference] - Code-level reference for the SDK
+* [Issues][sdk-issues] - Report issues with the SDK or submit pull requests
+* [License][sdk-license] - Apache 2.0 license
+* [Sage Intacct Developer][ia-developer] - Sage Intacct's Developer site
+* [Sage Intacct][intacct] - Sage Intacct's home page
 
-## Installation
+## System Requirements
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
+* You must have an active Sage Intacct Web Services Developer license
+* Node.js >= 14.20.0. The SDK is written in TypeScript and targets ES2015.
 
-Install the gem and add to the application's Gemfile by executing:
-
-    $ bundle add UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
-
-If bundler is not being used to manage dependencies, install the gem by executing:
-
-    $ gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/intacct-sdk-ruby.
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+[intacct]: http://www.intacct.com
+[ia-developer]: https://developer.intacct.com/
+[sdk-homepage]: https://developer.intacct.com/tools/sdk-node-js/
+[sdk-reference]: https://intacct.github.io/intacct-sdk-js/
+[sdk-issues]: https://github.com/Intacct/intacct-sdk-js/issues
+[sdk-license]: http://www.apache.org/licenses/LICENSE-2.0
+[npm]: https://www.npmjs.com/package/@sage-intact/intacct-sdk
